@@ -43,7 +43,7 @@ int main()
 
 
     //Now Solving the actual question =>>
-    int n;
+    int n=0;
     cin >> n;
     int digit_sum;
     while(n>0)
