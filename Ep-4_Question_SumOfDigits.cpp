@@ -40,5 +40,19 @@ int main()
     //     cout << "Krish";
     // }
 
+
+
+    //Now Solving the actual question =>>
+    int n;
+    cin >> n;
+    int digit_sum;
+    while(n>0)
+    {
+        int last_digit = n%10;
+        digit_sum+=last_digit;
+        n=n/10; //removing the last digit after it has been added up
+    }
+    cout << digit_sum << endl;
+
     return 0;
 }
