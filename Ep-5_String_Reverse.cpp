@@ -22,5 +22,18 @@ int main()
          str_rev.push_back(str[i]);
     }
 
-    cout << str_rev;
+    cout << str_rev < endl;
+
+
+    //for checking palindrome we just need to check one more condition
+    //since if original string becomes equal to reverse string then the number is a palindrome;
+
+    if(str==str_rev)
+    {
+        cout << "String is a palindrome";
+    }
+    else
+    {
+        cout << "String is Not A Palindrome";
+    }
 }
