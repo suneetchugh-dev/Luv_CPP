@@ -9,8 +9,8 @@ using namespace std;
 
 int main()
 {
-    int t;
-    cin >> t;
+    // int t;
+    // cin >> t;
 
     //running our code block for t test cases;
 
@@ -43,9 +43,9 @@ int main()
 
 
     //Now Solving the actual question =>>
-    int n=0;
+    int n;
     cin >> n;
-    int digit_sum;
+    int digit_sum=0;
     while(n>0)
     {
         int last_digit = n%10;
